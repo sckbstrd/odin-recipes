@@ -1,0 +1,20 @@
+a {
+    background-color: rgb(48, 93, 242);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+a:hover {
+    background-color: rgb(109, 34, 250);
+  }
+
+a:visited {
+    background-color: pink;
+}
+
+h1 {
+    background-color: rgb(9, 195, 12);
+    text-align: center;
+}
