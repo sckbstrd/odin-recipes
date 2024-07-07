@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
 a {
+    font-family: "Roboto Slab", serif;
     background-color: rgb(48, 93, 242);
-    text-decoration: none;
+    text-decoration: none╝;
     color: white;
     font-weight: bold;
     border-radius: 2px;
+    border: 1px black solid;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+
 }
 
 a:hover {
@@ -14,7 +25,39 @@ a:visited {
     background-color: pink;
 }
 
-h1 {
+.main-header {
+    font-family: "Roboto Slab", serif;
     background-color: rgb(9, 195, 12);
-    text-align: center;
+    width: 300px;
+    padding: 0 auto;
+    text-align: center; 
+    border: 2px solid;
+    border-radius: 6px;
 }
+
+
+p, li {
+    font-family: "Roboto Slab", serif;  
+}
+
+.back {
+    display: block;
+    border: 2.5px solid black;
+    width: 120px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.source-link {
+    border: 2.5px solid black;
+    padding: 5px;
+}
+
+#jgs {
+    background-color: white;
+    color: black;
+    border: none;
+
+}
+
+
