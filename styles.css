@@ -8,10 +8,7 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
     background: url('./img/pexels-fwstudio-33348-129731.jpg');
-    background-size: cover;
   }
 
 a {
