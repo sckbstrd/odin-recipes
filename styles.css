@@ -7,6 +7,13 @@
 
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('./img/pexels-fwstudio-33348-129731.jpg');
+    background-size: cover;
+  }
+
 a {
     background-color: rgb(48, 93, 242);
     text-decoration: none╝;
@@ -41,9 +48,10 @@ a:visited, a.source-link {
 
 
 .back {
-    display: block;
+    display: block;  
+    text-wrap: nowrap;
     border: 2.5px solid black;
-    width: 120px;
+    width: 200px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -53,22 +61,10 @@ a:visited, a.source-link {
     padding: 5px;
 }
 
-#jgs {
-    background-color: white;
-    color: black;
-    border: none;
-
-}
-
 
 div {
     width: 1000px;
-    margin: auto;
-}
-
-pre {
-    width: 1000px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 
@@ -82,4 +78,12 @@ img {
 h1 {
     text-align: center;
     font-size: 60px;
+}
+
+.ingredients {
+    display: inline-block;
+}
+
+.steps {
+    display: inline-block;
 }
